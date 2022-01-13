@@ -1,21 +1,3 @@
 <resources>
-<<<<<<< HEAD
     <string name="app_name">Loopy</string>
-
-=======
-    <string name="app_name">ModernLogin</string>
->>>>>>> parent of df04cf5 (Revert "Faulty Code")
-    <string name="login_email_hint">Email</string>
-    <string name="login_password_hint">Password</string>
-
-    <!--for facebook login-->
-
-    <!--facebook login ends-->
-
-    <!--error messages-->
-<<<<<<< HEAD
 </resources>
-=======
-
-</resources>
->>>>>>> parent of df04cf5 (Revert "Faulty Code")

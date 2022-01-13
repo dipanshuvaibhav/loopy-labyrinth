@@ -34,7 +34,7 @@ public class SplashScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i=new Intent(SplashScreen.this, RegisterActivity.class);
+                Intent i=new Intent(SplashScreen.this, SecretScreen.class);
                 //Intent is used to switch from one activity to another.
 
                 startActivity(i);
