@@ -18,6 +18,9 @@
         android:theme="@style/Theme.Loopy"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".OTP_Screen"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity

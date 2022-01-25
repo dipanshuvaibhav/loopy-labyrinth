@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "956377466408",
+    "project_id": "labyrinthapp-68111",
+    "storage_bucket": "labyrinthapp-68111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956377466408:android:a8dcf5eec7a375a516171d",
+        "android_client_info": {
+          "package_name": "com.labyrinth.loopy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956377466408-f5v7dacbk2arm9gdj5puvvgfgqiae7eu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.labyrinth.loopy",
+            "certificate_hash": "08b8fea2895520b109555b2ee8558c4df1c66b8c"
+          }
+        },
+        {
+          "client_id": "956377466408-08tbvpph2k8n9s37ocjgblu3vf75ko76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkXr2En1B2vY4rBtDw8Qy1-DPO-6hi6qY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956377466408-08tbvpph2k8n9s37ocjgblu3vf75ko76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

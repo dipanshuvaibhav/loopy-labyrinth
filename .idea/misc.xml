@@ -12,11 +12,14 @@
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable-v24/ic_login_hero.xml" value="0.3854166666666667" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable-v24/ic_register_hero.xml" value="0.3854166666666667" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable-v24/ic_side_bg.xml" value="0.3854166666666667" />
+        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable/_bg___20_sp___title_medium.xml" value="0.3854166666666667" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable/arrow_left.xml" value="0.3854166666666667" />
+        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable/bg_accent.xml" value="0.24342105263157895" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3854166666666667" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_login.xml" value="0.13796296296296295" />
+        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_otp_screen.xml" value="0.22" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_register.xml" value="0.35520833333333335" />
-        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_secret_screen.xml" value="0.3692708333333333" />
+        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_secret_screen.xml" value="0.22" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_splash_screen.xml" value="0.3692708333333333" />
       </map>
     </option>
