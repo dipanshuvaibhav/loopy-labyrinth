@@ -16,11 +16,14 @@
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable/arrow_left.xml" value="0.3854166666666667" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable/bg_accent.xml" value="0.24342105263157895" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3854166666666667" />
-        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_login.xml" value="0.13796296296296295" />
+        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_id_card_scan.xml" value="0.2332236842105263" />
+        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_new_profile_entry_page.xml" value="0.2332236842105263" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_otp_screen.xml" value="0.22" />
-        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_secret_screen.xml" value="0.22" />
         <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_splash_screen.xml" value="0.3692708333333333" />
+        <entry key="..\:/GitHub/loopy-labyrinth/app/src/main/res/layout/activity_student_info_input_screen.xml" value="0.2332236842105263" />
       </map>
     </option>
   </component>
