@@ -18,6 +18,9 @@
         android:theme="@style/Theme.Loopy"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".TestScreen"
+            android:exported="false" />
+        <activity
             android:name=".NewProfileEntry_Page"
             android:exported="false" />
         <activity
