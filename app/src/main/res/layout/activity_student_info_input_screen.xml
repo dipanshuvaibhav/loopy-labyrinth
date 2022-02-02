@@ -79,7 +79,7 @@
         android:id="@+id/imageButton12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="288dp"
+        android:layout_marginStart="236dp"
         android:layout_marginTop="220dp"
         android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
