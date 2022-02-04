@@ -18,6 +18,12 @@
         android:theme="@style/Theme.Loopy"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".PublicProfilePage"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalProfilePage"
+            android:exported="false" />
+        <activity
             android:name=".ID_Verify_Summary"
             android:exported="false" />
         <activity
