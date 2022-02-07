@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.labyrinth.loopy">
+    <!-- permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Loopy"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".PublicProfilePage"
+            android:exported="false" />
+        <activity
+            android:name=".PersonalProfilePage"
+            android:exported="false" />
+        <activity
+            android:name=".ID_Verify_Summary"
+            android:exported="false" />
+        <activity
+            android:name=".TestScreen"
+            android:exported="false" />
+        <activity
+            android:name=".NewProfileEntry_Page"
+            android:exported="false" />
+        <activity
+            android:name=".ID_Card_Scan"
+            android:exported="false" />
+        <activity
+            android:name=".StudentInfo_InputScreen"
+            android:exported="false" />
+        <activity
+            android:name=".OTP_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecretScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
