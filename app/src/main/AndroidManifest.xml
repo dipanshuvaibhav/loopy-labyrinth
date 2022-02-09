@@ -18,6 +18,12 @@
         android:theme="@style/Theme.Loopy"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".AttendanceForm"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceHome"
+            android:exported="false" />
+        <activity
             android:name=".PublicProfilePage"
             android:exported="false" />
         <activity
