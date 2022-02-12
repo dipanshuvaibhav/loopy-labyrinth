@@ -18,6 +18,15 @@
         android:theme="@style/Theme.Loopy"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".SettingsPage"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceAcknowledgement"
+            android:exported="false" />
+        <activity
+            android:name=".Attendance_QR_Screen"
+            android:exported="false" />
+        <activity
             android:name=".AttendanceForm"
             android:exported="false" />
         <activity
