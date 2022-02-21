@@ -8,19 +8,22 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/createAct_txtview13"
         android:layout_width="225dp"
         android:layout_height="24dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="92dp"
-        android:layout_marginTop="32dp"
-        android:text="Log In"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="38dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/login_back_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -41,29 +44,31 @@
         app:srcCompat="@drawable/labyrinthapp_logo" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="284dp"
+        android:id="@+id/login_email"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="308dp"
         android:ems="10"
+        android:hint="Email ID"
         android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
+        android:id="@+id/login_password"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="380dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/login_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
@@ -85,7 +90,7 @@
         app:srcCompat="@drawable/forgot_pass_btn" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/google_signin_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"

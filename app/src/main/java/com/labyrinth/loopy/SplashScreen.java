@@ -47,3 +47,7 @@ public class SplashScreen extends AppCompatActivity {
 
     }
 }
+
+/* Background loading task pending
+*  */
+
