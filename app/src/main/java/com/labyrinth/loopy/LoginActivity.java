@@ -71,7 +71,7 @@ public class LoginActivity extends AppCompatActivity {
             mAuth.signInWithEmailAndPassword(email_var,password_var).addOnCompleteListener(task -> {
                 if(task.isSuccessful())
                 {
-                    startActivity(new Intent(LoginActivity.this, OTP_Screen.class));
+                    startActivity(new Intent(LoginActivity.this, AttendanceHome.class));
                 }
                 else
                 {

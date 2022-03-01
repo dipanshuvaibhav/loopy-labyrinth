@@ -35,7 +35,7 @@
         app:srcCompat="@drawable/arrow_left" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/createAttendanceBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"

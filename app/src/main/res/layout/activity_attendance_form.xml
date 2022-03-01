@@ -61,7 +61,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName5"
+        android:id="@+id/sessionHead"
         android:layout_width="206dp"
         android:layout_height="51dp"
         android:layout_marginStart="172dp"
@@ -73,7 +73,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/otherEventType"
         android:layout_width="192dp"
         android:layout_height="49dp"
         android:layout_marginStart="16dp"
@@ -85,7 +85,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/sessCoHead"
         android:layout_width="184dp"
         android:layout_height="52dp"
         android:layout_marginStart="16dp"
@@ -97,7 +97,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner4"
+        android:id="@+id/eventType"
         android:layout_width="328dp"
         android:layout_height="59dp"
         android:layout_marginStart="16dp"
@@ -106,7 +106,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/eventName"
         android:layout_width="320dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
@@ -118,7 +118,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/locationName"
         android:layout_width="181dp"
         android:layout_height="48dp"
         android:layout_marginStart="220dp"
@@ -130,7 +130,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/eventDate"
         android:layout_width="137dp"
         android:layout_height="47dp"
         android:layout_marginStart="16dp"
@@ -142,7 +142,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTime"
+        android:id="@+id/fromTime"
         android:layout_width="101dp"
         android:layout_height="47dp"
         android:layout_marginStart="172dp"
@@ -154,7 +154,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber4"
+        android:id="@+id/sessionNo"
         android:layout_width="141dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
@@ -166,7 +166,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTime2"
+        android:id="@+id/toTime"
         android:layout_width="99dp"
         android:layout_height="45dp"
         android:layout_marginStart="296dp"
@@ -178,7 +178,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton17"
+        android:id="@+id/verifyBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="240dp"
@@ -189,11 +189,13 @@
         app:srcCompat="@drawable/attendance_verify_btn" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/futureRegisterSwitch"
         android:layout_width="88dp"
         android:layout_height="51dp"
-        tools:layout_editor_absoluteX="276dp"
-        tools:layout_editor_absoluteY="694dp" />
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="696dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/createAct_txtview8"
@@ -211,7 +213,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton18"
+        android:id="@+id/generateQRBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
