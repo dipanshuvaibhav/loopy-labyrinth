@@ -3,8 +3,10 @@ package com.labyrinth.loopy;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
@@ -24,6 +26,8 @@ public class SplashScreen extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_splash_screen);
+
+        // changeStatusBarColor();
 
         logo = findViewById(R.id.labyrinth_logo);
         lottieAnimationView = findViewById(R.id.lottieLogo);
@@ -45,6 +49,15 @@ public class SplashScreen extends AppCompatActivity {
             }
         }, SPLASH_SCREEN_TIME_OUT);
 
+    }
+
+    private void changeStatusBarColor() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            Window window = getWindow();
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+//            window.setStatusBarColor(Color.TRANSPARENT);
+            window.setStatusBarColor(getResources().getColor(R.color.colorPrimary));
+        }
     }
 }
 

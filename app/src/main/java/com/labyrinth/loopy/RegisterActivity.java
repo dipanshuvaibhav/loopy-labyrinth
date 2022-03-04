@@ -2,6 +2,7 @@ package com.labyrinth.loopy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.content.Intent;
 import android.os.Build;
@@ -13,12 +14,12 @@ import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import android.util.Patterns;
-import android.widget.Button;
 import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import android.database.sqlite.*;
 
 
 public class RegisterActivity extends AppCompatActivity {
@@ -27,6 +28,8 @@ public class RegisterActivity extends AppCompatActivity {
     ImageButton register_btn, google_signup_btn, back_btn;
     FirebaseAuth mAuth;
     String email_var, password_var, name_var, phone_var, confirm_password_var, username_var;
+    String rollNum, userName, courseName, courseYear, currentSemester;
+    private DBHandler dbHandler;
 
 
     @Override
@@ -45,6 +48,10 @@ public class RegisterActivity extends AppCompatActivity {
         register_btn = (ImageButton) findViewById(R.id.register_btn);
         google_signup_btn = (ImageButton) findViewById(R.id.google_signup_btn);
         back_btn = (ImageButton) findViewById(R.id.back_btn);
+
+        // creating a new dbhandler class
+        // and passing our context to it.
+        dbHandler = new DBHandler(RegisterActivity.this);
 
         mAuth=FirebaseAuth.getInstance();
 
@@ -105,6 +112,10 @@ public class RegisterActivity extends AppCompatActivity {
                         }
                     }
                 });
+
+                //This line is to add data to the sql database pls check carefully
+                dbHandler.addNewUser(name_var, userName);
+
             }
         });
     }

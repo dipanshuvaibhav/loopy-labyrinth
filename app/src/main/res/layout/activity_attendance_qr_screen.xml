@@ -35,15 +35,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/createAct_txtview10"
-        android:layout_width="283dp"
+        android:id="@+id/attendanceCodeTextView"
+        android:layout_width="wrap_content"
         android:layout_height="29dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="88dp"
         android:layout_marginTop="680dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="Attendance Code: 1234567890"
+        android:foregroundGravity="center"
+        android:text="Attendance Code: 123456"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,14 +61,15 @@
         app:srcCompat="@drawable/qr_code_frame" />
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="344dp"
+        android:id="@+id/idIVQrcode"
+        android:layout_width="226dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="340dp"
+        android:background="#00FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sample_qr_code" />
+        app:srcCompat="@drawable/sample_qrcode" />
 
     <ImageButton
         android:id="@+id/imageButton20"
@@ -79,5 +81,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/end_attendance_btn" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/attendance_timer_bg" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="128dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="128dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

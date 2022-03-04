@@ -12,10 +12,12 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.Switch;
+import android.database.sqlite.*;
 
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Date;
+import java.util.Random;
 
 public class AttendanceForm extends AppCompatActivity {
 
@@ -25,6 +27,7 @@ public class AttendanceForm extends AppCompatActivity {
     Switch futureSwitch;
     String eventName_var, sessionNum_var, sessionHead_var, sessionCoHead_var, locationName_var, otherType_var;
     Date eventDate_var;
+    String qrcodeData;
     FirebaseAuth mAuth;
 
     @Override
@@ -96,6 +99,12 @@ public class AttendanceForm extends AppCompatActivity {
                     return;
                 }
 
+                qrcodeData = getRandomNumberString();
+                Intent intent = new Intent(AttendanceForm.this, Attendance_QR_Screen.class);
+                // uname2 = username.getText().toString();
+                intent.putExtra("Value", qrcodeData);
+                startActivity(intent);
+                finish();
 
             }
         });
@@ -109,6 +118,16 @@ public class AttendanceForm extends AppCompatActivity {
 //            window.setStatusBarColor(Color.TRANSPARENT);
             window.setStatusBarColor(getResources().getColor(R.color.colorPrimary));
         }
+    }
+
+    public static String getRandomNumberString() {
+        // It will generate 6 digit random Number.
+        // from 0 to 999999
+        Random rnd = new Random();
+        int number = rnd.nextInt(999999);
+
+        // this will convert any number sequence into 6 character.
+        return String.format("%06d", number);
     }
 
 }
