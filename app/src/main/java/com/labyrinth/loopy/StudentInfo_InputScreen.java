@@ -2,6 +2,7 @@ package com.labyrinth.loopy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -44,7 +45,8 @@ public class StudentInfo_InputScreen extends AppCompatActivity {
                     return;
                 }
 
-
+                Intent intent = new Intent(getApplicationContext(), AttendanceHome.class);
+                startActivity(intent);
             }
         });
 

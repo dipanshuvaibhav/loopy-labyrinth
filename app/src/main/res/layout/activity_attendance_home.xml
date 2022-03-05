@@ -46,7 +46,7 @@
         app:srcCompat="@drawable/create_attendance_icon" />
 
     <ImageButton
-        android:id="@+id/imageButton16"
+        android:id="@+id/scanAttendanceBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="260dp"
