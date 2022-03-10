@@ -19,6 +19,8 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
+
 import android.database.sqlite.*;
 
 
@@ -30,6 +32,7 @@ public class RegisterActivity extends AppCompatActivity {
     String email_var, password_var, name_var, phone_var, confirm_password_var, username_var;
     String rollNum, userName, courseName, courseYear, currentSemester;
     private DBHandler dbHandler;
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
 
 
     @Override
